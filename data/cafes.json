@@ -1,0 +1,67 @@
+[
+    {
+        "id": 0,
+        "nombreCafe": "Cappuccino",
+        "descripcionCafe": "¡Oh! El famoso Cappuccino.\nInspirado en el color de las capuchas de los monjes capuchinos italianos, y llevado posteriormente de Roma a Nueva York, sus preparaciones han variado tanto como la forma de pronunciarlo. Pero el color de la espuma siempre ha permanecido igual. En pocas palabras, se trata de un clásico.",
+        "fotoCafe": "./assets/cafes/cappuccino.jpg",
+        "precioCafe": 180,
+        "cantidad": 1
+    },
+    {   
+        "id": 1,
+        "nombreCafe": "Moca",
+        "descripcionCafe": "Un café moca es una variante del café con leche. Como este, suele llevar un tercio de expreso y dos tercios de leche vaporizada, pero se añade una parte de chocolate, normalmente en forma de jarabe de chocolate, aunque algunas máquinas usan chocolate en polvo instantáneo. Los mochas contienen chocolate negro o con leche.",
+        "fotoCafe": "./assets/cafes/moca.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombreCafe": "Espresso",
+        "descripcionCafe": "El café expreso (también denominado café espresso, café exprés, café express o café solo) es una forma de preparación de café. Debe su término a la obtención de esta bebida a través de una cafetera expreso. Se caracteriza por su rápida preparación a una alta presión y por un sabor y textura más concentrados.",
+        "fotoCafe": "./assets/cafes/espresso.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombreCafe": "Latte",
+        "descripcionCafe": "Un latte es uno o dos shots de espresso con leche al vapor y una fina capa de leche espumosa encima, mientras que un capuchino tiene mucha más espuma.",
+        "fotoCafe": "./assets/cafes/latte.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombreCafe": "Macchiato de Chocolate",
+        "descripcionCafe": "El café gourmet se combina con el café noisette cuando dejas caer una onza de maravilloso chocolate negro en tu Espresso con leche.",
+        "fotoCafe": "./assets/cafes/macchiato.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombreCafe": "Espresso Helado",
+        "descripcionCafe": "¿Un toque de leche y un poco de hielo? Esta receta basada en el café Espresso se caracteriza por ingredientes sencillos, pero eso no quita que se te haga la boca agua cuando huelas el azúcar de caña y la espuma de leche.",
+        "fotoCafe": "./assets/cafes/espresso_helado.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombreCafe": "Irish",
+        "descripcionCafe": "El café irlandés a menudo significa una mezcla desordenada de alcohol, crema y café, algo parecido a un batido de whisky caliente. Pero en Mystery Coffe Hhouse, el café irlandés es exactamente lo que quieres en un día frío y lluvioso: un trago doble de espresso cortado con buen whisky y ligeramente endulzado con jarabe Demerara con infusión de vainilla, cubierto con una nube de crema suavemente batida, naranja y virutas de chocolate aromatizadas. ",
+        "fotoCafe": "./assets/cafes/irish.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombreCafe": "Mikshake de Café",
+        "descripcionCafe": "Esta crema de café con 3 ingredientes, es ideal para los muy cafeteros, por su potente sabor, muy cremosa y estupenda combinación entre postres y cafés.",
+        "fotoCafe": "./assets/cafes/milkshake.jpg",
+        "precioCafe": 275,
+        "cantidad": 1
+    }
+    
+  ]

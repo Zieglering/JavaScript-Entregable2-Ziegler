@@ -1,0 +1,161 @@
+/* ------------------- index y general ----------------- */
+html {
+    background-color: #fff7ef;
+    font-size: 100%;
+    color: #140e0e;
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Body */
+  body {
+    margin: 0;
+    padding-top: 100px;
+    background-color: #fff7ef;
+    
+  }
+
+
+
+
+/* ---------------------------------------------------------- */
+.cafe-tarjetas {
+    margin-top: 2rem;
+    width: 90%;
+    /* height: 800px; */
+    margin-left: 1rem;
+  }
+  .cafe-color-boton {
+    background-color: #d79d65;
+    color: #3f3637;
+
+  }
+  .cafe-color-boton :hover {
+    background-color: #f5a459;
+    color: #3f3637;
+  }
+  .cafe-color-boton :focus {
+    background-color: #d79d65;
+    color: #3f3637;
+  }
+
+  /* ------------------------------------------------------- */
+  .pastillas-armado {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+
+}
+
+
+.pastillas {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+
+
+
+.foto {
+    display: grid;
+    width: 400px;
+
+}
+
+.titulo {
+    display: grid;
+    color: rgb(27, 23, 20);
+    margin-left: 35px;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 0.1px solid #d79d65 ;
+
+
+    
+}
+
+.boton {
+    display: grid;
+    align-items: center;
+    /* color: darkblue; */
+    /* overflow: hidden; */
+
+    /* margin-top: 50px; */
+}
+
+.texto-descripcion {
+  /* width: 400px; */
+  height: 200px;
+  /* margin-top: 100px; */
+  padding-top: -100px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  overflow-x: hidden;
+}
+
+.titulo-cafes {
+  overflow: hidden;
+  height: 80px;
+}
+
+
+.carrito-tarjetas {
+  width: 200px;
+}
+
+/*
+.imagen-carrito {
+  width: 25%;
+}
+
+.carrito_01 {
+  max-width: 1024px;
+}
+*/
+
+.imagenReserva {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  border: 2px solid white;
+  position: relative;
+}
+
+.carritoLista {
+  list-style: none;
+
+}
+
+.navCafe {
+  background-color: #ffb56f;
+}
+
+.carritoIcono {
+  height: 60px;
+  color: #d79d65;
+  /* padding: 20%; */
+  /* background-color: #d79d65; */
+}
+
+.totalCarrito {
+  background-color: #d79d65;
+  padding-top: 10px;
+  padding-bottom: 10px;
+   
+   
+
+}
+
+.productoLista {
+  width: 60%;
+}
