@@ -38,6 +38,11 @@ html {
     color: #3f3637;
   }
 
+  .oscuro-color-boton {
+    background-color: #3f3637;
+    color: #d79d65;
+  }
+
   /* ------------------------------------------------------- */
   .pastillas-armado {
     display: grid;
@@ -148,9 +153,14 @@ html {
 }
 
 .totalCarrito {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
   background-color: #d79d65;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-color: #d79d65;
    
    
 
@@ -158,4 +168,12 @@ html {
 
 .productoLista {
   width: 60%;
+}
+
+.cafe-titulo h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
 }
