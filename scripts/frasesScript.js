@@ -2,11 +2,6 @@ const fraseAPI = "https://api.quotable.io/random";
 const error = "Uuuuups!";
 const traducir_esAPI = "https://es.libretranslate.com/translate";
 
-// https://rapidapi.com/mixerboxmada/api/google-translate-v21/
-// https://yandex.com/dev/translate/
-// https://mymemory.translated.net/doc/spec.php
-// https://www.deepl.com/pro-api?cta=header-pro-api
-
 async function traducir_es(traducir) {
     const response = await fetch(traducir_esAPI, {
         method: 'POST',
@@ -27,7 +22,6 @@ async function traducir_es(traducir) {
 async function fraseRandom() {
     const response = await fetch(fraseAPI,{method:"GET"});
     const result = await response.json();
-    // console.table(result)
 
     
 

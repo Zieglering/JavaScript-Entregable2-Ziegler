@@ -1,4 +1,4 @@
-/* General Styles */
+/* General*/
 html {
   background-color: #140e0e;
   font-size: 100%;
@@ -43,7 +43,7 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   color: #d7c8b3;
 }
 
-/* Other Styles */
+/* Otros */
 .cantidad-productos-carrito {
   margin-top: 45%;
   margin-left: 5px;
@@ -68,7 +68,7 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   }
 }
 
-/* Grid Layouts */
+/* Grid */
 .contenedorGrid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -76,7 +76,7 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   grid-gap: 2px;
 }
 
-/* Cafe Titles */
+/* Titulos */
 .cafe-titulo {
   display: grid;
   grid-row: 1;
@@ -118,7 +118,7 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   margin-left: 1rem;
 }
 
-/* Button Colors */
+/*  Color Boton */
 .cafe-color-boton {
   background-color: #d79d65;
   color: #3f3637;
@@ -152,8 +152,6 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    /* border: 1px solid black; */
-    /* background-color: whitesmoke; */
     border-radius: 5px;
     width: 400px;
     height: 400px;
@@ -173,16 +171,10 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 .boton {
     display: grid;
     align-items: center;
-    /* color: darkblue; */
-    /* overflow: hidden; */
-
-    /* margin-top: 50px; */
 }
 
 .texto-descripcion {
-  /* width: 400px; */
   height: 200px;
-  /* margin-top: 100px; */
   padding-top: -100px;
   overflow-y: scroll;
   scrollbar-width: thin;
@@ -201,26 +193,17 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 .iconoCarrito {
   width: 40px;
   margin-right: -15px;
-  /* margin-bottom: 5px; */
 }
 
 .botonAgregarAlCarrito {
   display: flex;
-  /* justify-items: end;
-  align-items: end; */
-  /* align-self: flex-end;
-  justify-self: end; */
-  /* align-content: end; */
   justify-content: end;
   width: 35px;
   height: 35px;
   overflow: none;    
-  /* opacity: 0;
-  transition: all 0.5s ease-out; */
 }
 
 .botonAgregarAlCarrito:hover {
-
   opacity: 100;
 }
 
@@ -232,13 +215,11 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   top:0;
   width: 100%;
   height: 100%;
-  
   opacity: 0;
   transition: all 0.9s;
   box-shadow: 0 0 20px 20px #d7c8b3;
   border-radius: 10px;
   pointer-events: none;
-
 }
 
 .botonAgregarAlCarrito:active:after {
@@ -297,18 +278,15 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 
 .carrito-tarjetas {
   width: 200px;
-  
 }
 
 
 .imagen-carrito {
   
   height: 120px;
-
 }
 
 .imagenSizeCarrito {
- /* width: 100%; */
   width: 140px;
   height: 120px;
 
@@ -316,34 +294,20 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 }
 
 .productosCarrito {
-  /* margin-right: 100px; */
   padding-right: 50px;
-
   display: flex;
-  
-  
-  
 }
 
 .carrito_01 {
   border: none;
   border-style: none;
- 
 }
 
 .productoLista {
   width: 100%;
   border-bottom: solid 1px #d79d65;
   margin-bottom: 18px;
-  /* padding-left: 20px; */
-  /* padding-right: 100px; */
-  
 }
-
-/* .carritoNoWrap {
-  flex-wrap: nowrap;
-  white-space: nowrap;
-} */
 
 .productoLista h3 {
   display: flex;
@@ -352,15 +316,10 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 
 
 
-/* .productoLista img {
-  width: 100px;
-} */
-
 .imagenReserva {
   width: 100%;
   height: 0;
   padding-bottom: 100%;
-  /* border: 2px solid white; */
   position: relative;
 }
 
@@ -376,8 +335,6 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 .carritoIcono {
   height: 30px;
   filter: invert(70%) sepia(43%) saturate(458%) hue-rotate(346deg) brightness(88%) contrast(89%);
-  /* padding: 20%; */
-  /* background-color: #d79d65; */
 }
 
 .carritoIcono:hover {
@@ -389,22 +346,14 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  /* background-color: #d79d65; */
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 30px;
-
-  /* border-color: #d79d65;
-  border-top: solid 1px #d79d65; */
 }
-
-
-
 
 .carritoTitulo {
   margin-bottom: 50px;
   border-bottom: solid 1px #e5dfd8;
-
 }
 
 .divTotalContainer {
@@ -420,15 +369,10 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 .iconoEliminarDelCarrito {
   margin-right: 200px;
   width: 16%;
-
 }
 
 .divEliminarCarrito {
   width: 10px;
-
-  
-  
-  
 }
 
 .botonCheckout {
@@ -442,9 +386,6 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
   background-color: #d79d65;
 }
 
-
-
-
 .botonBorrarTodoCarrito{
   width: 100%;
   height: 50%;
@@ -455,65 +396,47 @@ body header .mysteryCH-destacado .nav-pills .nav-link:focus {
 background-color: red;
 }
 
-
-
-
-
 .panelCarrito {
-  /* display: grid; */
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(1, 1fr);
-  height: 100%; /* Specify a height */
-  width: 40px; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 100%;
+  width: 40px;
+  position: fixed;
+  z-index: 1;
   top: 0px;
   right: 0;
   bottom: 0px;
   left: end;
-  background-color: #ffffff; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 100px; /* Place content 60px from the top */
-  transition: all 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 100px;
+  transition: all 0.5s;
   scrollbar-width: thin;
   list-style: none;
   float: right;
   padding-left: 20px;
   padding-right: 20px;
   filter: drop-shadow(-2px 2px 10px rgba(45, 24, 0, 0.1));  
-  /* justify-content: start; */
-
 }
 
 .titulo-cafes-Carrito {
   overflow: hidden;
   word-wrap: break-word;
-  /* height: 20px; */
   font-size: 100px;
   font-weight: bold;
-  /* margin-top: -10px; */
-  /* margin-left: 5px; */
-  
-  
 }
 
 .cantidadCarrito {
   display: flex;
   width: 40px;
   height: 40px;
-  /* margin-right: 50px; */
-  /* align-self: center; */
-
-  
   margin-top: 5px;
   background-color: #d79d65;
-  
   justify-content: center;
   border-radius: 50%;
   margin-left: 30px;
- 
-
 }
+
 .cantidadCarrito h3 {
   display: flex;
   font-size: 800;
@@ -525,19 +448,6 @@ background-color: red;
   align-items: center;
 }
 
-
-/* .productoCantidadBoton{
-  display: flex;
-  align-items: baseline;
-  align-content: center;
-  
-  justify-items: center;
-  margin-left: -100px;
-  font-size: large;
-  
-  
-} */
-
 .divBatchCarrito {
   display: flex;
   flex-wrap: nowrap;
@@ -546,24 +456,17 @@ background-color: red;
 }
 
 .textoProductosCarrito{
-  /* padding-right: 100px; */
-  /* border: solid; */
-  /* font-size: large; */
   margin-left: 10px;
-  /* white-space: nowrap; */
   width: 120px;
-  
 }
 
 .textoProductosCarrito h3 {
   overflow: hidden;
-
 }
 
 .productoCantidadBoton h3 {
   font-size: large;
   font-weight: bold;
-  
 }
 
 .cantidadBoton {
@@ -578,35 +481,16 @@ background-color: red;
   color: #3f3637;
 }
 
-/* .cafe-color-boton {
-  background-color: #d79d65;
-  color: #3f3637;
-
-}
-.cafe-color-boton:hover {
-  background-color: #f5a459;
-  color: #3f3637;
-}
-.cafe-color-boton:focus {
-  background-color: #d79d65;
-  color: #3f3637;
-} */
-
 .formComentarios textarea {
   width: 100%;
   border: solid 1px #d79d65;
   margin-top: -80px;
 }
 
-
 .miCarrito {
-
   list-style: none;
-
 }
 
-
-/* Position and style the close button (top right corner) */
 .botonCerrarCarrito {
   position: absolute;
   top: 0;
@@ -616,16 +500,14 @@ background-color: red;
   z-index: 1;
   text-decoration: none;
   filter: invert(0%) sepia(43%) saturate(0%) hue-rotate(346deg) brightness(100%) contrast(89%);
-  
 }
 .botonCerrarCarrito:hover {
   filter: invert(70%) sepia(43%) saturate(458%) hue-rotate(346deg) brightness(88%) contrast(89%);
-
 }
 
 
 
-/* Style the button that is used to open the sidepanel */
+/* sidepanel */
 .botonAbrirCarrito {
   font-size: 20px;
   cursor: pointer;
@@ -640,7 +522,6 @@ background-color: red;
 }
 
 .carritoNav{
-  /* margin-left: -50px; */
   font-size: 20px;
   cursor: pointer;
   transition: 0.5s;
@@ -650,40 +531,24 @@ background-color: red;
   background-color: #444;
 } 
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
   transition: margin-right .5s;
-  /* padding: 20px; */
 }
 
 .fraseFondo{
   display: flex;
-  /* background-color: #d79d65; */
-  /* grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: minmax(100px, auto); */
-  /* margin-top: 200px; */
   padding-top: 20px;
   padding-bottom: 100px;
   justify-content: center;
   background-color: rgba(196, 191, 193, 0.2);
-
-
 }
 
 .fraseContenedor{
-
- 
   width: 800px;
-  /* margin-top: 20px; */
   border: none;
   background: none;
   color: #3f3637;
-
   justify-content: center;
-
-  
- 
-  
 }
 
 .fraseIntro {
@@ -691,20 +556,11 @@ background-color: red;
   margin-top: 200px;
   text-align: center;
   color: #3f3637;
-  /* width: 900px; */
   justify-content: center;
-  /* border-bottom: solid 1px #b3adae; */
   font-weight: light;
   font-size: 20px;
-  
 }
 
-
-
-/* .tituloFrase {
-  text-align: start;
-  grid-column: 2 / 3;
-} */
 .textoFrase {
   text-align: center;
   font-size: 40px;
@@ -720,16 +576,10 @@ background-color: red;
 
 
 .footerSeguinos{
-  /* display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  justify-items: center; */
   background-color: #111;
   margin-bottom: -10px;
   padding-bottom: 30px;
   padding-top: 10px;
-
 }
 
 .footerSeguinos h4 {
@@ -738,7 +588,6 @@ background-color: red;
 }
 
 .footerSeguinos img {
-  /* padding-bottom: 10px; */
   width: 10%;
 }
 
@@ -762,17 +611,13 @@ background-color: red;
 }
 @media only screen and (min-width: 1024px) {
   .cafe-tarjetas {
-    
     grid-row: 2;
     grid-column: 2;
     grid-template-columns: repeat(4, 1fr);
   }
 
   .panelCarrito {
-    
-    
     width: 40px;
-
   }
 
 }
