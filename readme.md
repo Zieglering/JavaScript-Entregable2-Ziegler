@@ -1,6 +1,6 @@
 # CODERHOUSE - javaScript Entrega 2 - Martin Ziegler
 
-segunda entrega de javaScript de CODERHOUSE
+Entrega final javaScript de CODERHOUSE
 simple simulador de carrito de compras de un CoffeeShop 
 
 

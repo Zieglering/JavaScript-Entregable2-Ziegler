@@ -4,7 +4,7 @@
         "nombreCafe": "Cappuccino",
         "descripcionCafe": "¡Oh! El famoso Cappuccino.\nInspirado en el color de las capuchas de los monjes capuchinos italianos, y llevado posteriormente de Roma a Nueva York, sus preparaciones han variado tanto como la forma de pronunciarlo. Pero el color de la espuma siempre ha permanecido igual. En pocas palabras, se trata de un clásico.",
         "fotoCafe": "./assets/cafes/cappuccino.jpg",
-        "precioCafe": 180,
+        "precioCafe": "180.00",
         "cantidad": 1
     },
     {   
@@ -63,5 +63,4 @@
         "precioCafe": 275,
         "cantidad": 1
     }
-    
   ]
